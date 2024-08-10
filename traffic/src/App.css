@@ -1,0 +1,77 @@
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #2C2F2C;
+  color: #F5E5E2;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Links */
+a {
+  color: #F5E5E2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Area */
+main {
+  padding: 0; /* Remove padding */
+  background-color: transparent; /* Make the background transparent */
+  box-shadow: none; /* Remove box shadow */
+  border-radius: none; /* Remove border-radius */
+  margin-top: 20px; /* Keep margin if needed for spacing */
+}
+
+/* Override any general styles applied to the graph or its container */
+main .container {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 0px 0;
+  margin-top: 40px;
+}

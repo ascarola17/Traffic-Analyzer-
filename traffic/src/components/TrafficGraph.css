@@ -1,0 +1,33 @@
+/* TrafficGraph.css */
+.graph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2E2E2E; /* Match the background color of the screen */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.graph-box {
+    width: 600px; /* Fixed width for the graph container */
+    height: 400px; /* Fixed height for the graph container */
+    padding: 0 !important; /* Ensure no padding */
+    margin: 0 !important; /* Ensure no margin */
+    background-color: rgb(17, 13, 13) !important; /* Red background for testing */
+    border: none !important; /* Ensure no border */
+    box-sizing: content-box; /* Exclude padding and border from the width and height */
+}
+
+/* Ensure the canvas inside takes up the exact size of its container */
+.graph-box canvas {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgb(88, 69, 69) !important; /* Red background for testing */
+    border: none !important;
+    box-sizing: content-box !important;
+}

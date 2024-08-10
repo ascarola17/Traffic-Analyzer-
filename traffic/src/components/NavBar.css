@@ -1,0 +1,64 @@
+/* src/components/NavBar.css */
+.navbar {
+    background-color: #20474D;
+    padding: 1rem;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-link {
+    color: #F5E5E2;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: #DF5449;
+}
+
+
+/* Optional for Dropdown */
+.nav-item.dropdown {
+    position: relative;
+}
+
+.nav-link.dropdown-toggle::after {
+    content: " ▼";
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    margin: 0.5rem 0;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #555;
+}
